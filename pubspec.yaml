@@ -1,0 +1,27 @@
+name: abc_app
+description: Sistema de pruebas de altas bajas y cambios.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  http: ^0.12.2
+  toast: ^0.1.5
+  loading: ^1.0.2
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/img/
